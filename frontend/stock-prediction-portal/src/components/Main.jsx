@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom"
+
+
 function Main() {
     return (
         <>
@@ -7,6 +10,7 @@ function Main() {
                     <p className="text-light lead">
                         Welcome to the Stock Prediction Portal — your intelligent companion for navigating the stock market.Using advanced machine learning algorithms, our platform analyzes historical data, trends, and market indicators to provide insightful stock predictions. Whether you're an experienced trader or a beginner, our goal is to empower you with data-driven forecasts, intuitive visualizations, and real-time updates — all in one seamless dashboard. Start making smarter investment decisions today with the power of AI at your fingertips.
                     </p>
+                    <Link to="/dashboard" className="btn btn-info">Explore</Link>
                 </div>
 
             </div>
